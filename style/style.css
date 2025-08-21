@@ -1,0 +1,208 @@
+/*Iníco do Reset global para evitar problemas de layout*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Permite incluir o preenchimento e a borda  na largura e altura totais de um elemento */
+    list-style: none;
+    text-decoration: none;
+}
+
+#navegacao{
+    width: 100%; /* Define a largura da seção em 100% */
+    height: 150px;
+    padding: 10px 10px 0px 10px; /* Adiciona 10 pixels de margem interna */
+    background-image: url(Images/cabecalho_coffee2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+header h1{
+    /* estilo do h1 header*/
+    color: rgb(255, 255, 255);
+    font-family: 'Great Vibes';
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+#navegacao ul{
+    /* estilo da lista do cabeçalho */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#navegacao a{
+    /* estilo dos links da lista */
+    color: white;
+    background-color: #c18e6fb2;
+    padding: 8px;
+    border: solid 3px antiquewhite ;
+}
+
+#navegacao a:hover{
+    background-color: #463936;
+}
+
+main h1{
+    /* estilo de todos h1 main */
+    font-family: 'Great Vibes';
+    font-weight: normal;
+    font-size: 42px;
+}
+
+#inicio{
+    /* seção início */
+    background-color: antiquewhite;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+#inicio img{
+    /* estilo imagem início */
+    width: 400px;
+    height: 250px;
+    border: solid #C18E6F 5px;
+}
+
+.informacoesInicio h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.informacoesInicio p{
+    /* estilo texto início */
+    width: 500px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#sobre{
+    width: 100%;
+    padding: 30px;
+    background-color: #463936;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.resumoSobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resumoSobre p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+.cidadesSobre h1{
+    padding-bottom: 20px;
+}
+
+.cidadesSobre ul{
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cidadesSobre li{
+    background-color: #C18E6F;
+    border: solid antiquewhite;
+    color: #463936;
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#cardapio{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+#cardapio h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.cardapioContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.cardapioContainer div{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cardapioContainer img{
+    width: 80px;  
+    padding: 8px;
+}
+
+.cardapioContainer h2{
+    font-family: 'Great Vibes';
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.cardapioContainer ul{
+    background-color: #463936;
+    color: antiquewhite;
+    padding: 16px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: ridge #C18E6F 6px;
+}
+
+.cardapioContainer li{
+    padding: 6px;
+    text-align: center;
+    
+}
+
+#contato{
+    background-color: #463936;
+    padding: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+#contato h1{
+    padding-bottom: 20px;
+}
+#contato p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#rodape{
+    background-color: #463936;
+    padding: 20px;
+    text-align: center;
+    color: antiquewhite;
+}

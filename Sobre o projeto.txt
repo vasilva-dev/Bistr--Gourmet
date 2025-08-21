@@ -1,0 +1,3 @@
+Esse projeto foi criado com base na estrutura inicial (de currículo) e transformado em uma landingpage de um bistrô/cafeteria. A página fala sobre o Bistrô, sua localidade, cardápio e contatos.
+
+PS: Instale o arquivo da fonte para que o site apareça na formatação correta.
